@@ -1,0 +1,71 @@
+body{
+	background: purple;
+	width: 100%;
+	height: 700px;
+}
+@import url('https://fonts.googleapis.com/css?family=Laila');
+
+.section1{
+	background: white;
+	position: relative;
+	width: 85%;
+	height: 620px;
+	margin-left: 100px;
+	margin-top: 100px;
+	box-shadow: 2px 2px 2px 2px;
+}
+.div1{
+	background: #FFFAFA;
+	position: relative;
+	width: 561px;
+	height: 620px;
+	left: 650px; 
+	bottom: 641px;
+}
+.titulo, .paragrafo{
+	font-size: 20px;
+	position: relative;
+	top: 70px;
+	left: 77px;
+	text-align: left;
+}	
+.paragrafo{
+	font-size: 15px;
+}
+.inputs1, .inputs2{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+.firstname, .phone, .password, .lastname, .email, .confirmpass{
+	font-size: 15px;
+	position: relative;
+	top: 70px;
+	left: 78px;
+}
+.lastname, .email, .confirmpass{
+	top: -93px;
+	left: 290px;
+}
+.check, .termos, .frase{
+	position: relative;
+	left: 75px;
+	bottom:	80px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+}
+.frase{
+	left: 80px;
+	bottom: 30px;
+}
+.div{
+	background: purple;
+	position: relative;
+	left: 80px;
+	bottom: 50px;
+	width: 120px;
+	height: 5px;
+	border-radius: 10px;
+}
